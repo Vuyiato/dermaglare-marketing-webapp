@@ -4,6 +4,7 @@ import "./globals.css";
 import "./modern-styles.css";
 import "./light-theme.css";
 import "./header-styles.css";
+import "./mobile-optimizations.css";
 import ModernHeader from "@/components/ModernHeader";
 import ScrollProgress from "@/components/ScrollProgress";
 import LoadingScreen from "@/components/LoadingScreen";

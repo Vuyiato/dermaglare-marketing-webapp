@@ -1113,3 +1113,246 @@ h6 {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* ===========================
+   MOBILE OPTIMIZATIONS
+   =========================== */
+
+@media (max-width: 768px) {
+  /* Hero Section Mobile */
+  .hero-content {
+    padding: 100px 20px 60px !important;
+  }
+  
+  .hero-title {
+    font-size: 48px !important;
+    line-height: 1.1 !important;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px !important;
+    margin: 20px 0 30px !important;
+  }
+  
+  /* Horizontal Scroll Mobile */
+  .horizontal-scroll-section {
+    padding: 60px 0 !important;
+  }
+  
+  .service-card-horizontal {
+    min-width: 85vw !important;
+    max-width: 85vw !important;
+    margin: 0 10px !important;
+  }
+  
+  .section-intro-card {
+    min-width: 85vw !important;
+    max-width: 85vw !important;
+    padding: 40px 20px !important;
+  }
+  
+  .intro-number {
+    font-size: 80px !important;
+    margin-bottom: -40px !important;
+  }
+  
+  /* Testimonials Mobile */
+  .testimonials-section {
+    padding: 60px 20px !important;
+  }
+  
+  .testimonial-card {
+    padding: 30px 20px !important;
+  }
+  
+  .testimonial-quote {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+  
+  /* About Section Mobile */
+  .about-section {
+    padding: 60px 20px !important;
+  }
+  
+  .about-container {
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+  
+  .about-images {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .about-content {
+    width: 100% !important;
+  }
+  
+  .section-title {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+  
+  /* Why Choose Us Mobile */
+  .why-choose-section {
+    padding: 60px 20px !important;
+  }
+  
+  .why-features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+  
+  /* Skin Tips Mobile */
+  .skin-tips-section {
+    padding: 60px 20px !important;
+  }
+  
+  .tips-grid {
+    grid-template-columns: 1fr !important;
+    gap: 25px !important;
+  }
+  
+  .tip-card {
+    padding: 30px 20px !important;
+  }
+  
+  /* CTA Section Mobile */
+  .cta-section {
+    padding: 60px 20px !important;
+  }
+  
+  .cta-title {
+    font-size: 32px !important;
+  }
+  
+  .cta-description {
+    font-size: 16px !important;
+  }
+  
+  /* Footer Mobile */
+  .modern-footer {
+    padding: 50px 20px 30px !important;
+  }
+  
+  .footer-main {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    text-align: center !important;
+  }
+  
+  .footer-brand,
+  .footer-menu,
+  .footer-contact {
+    text-align: center !important;
+  }
+  
+  .footer-menu {
+    columns: 2 !important;
+  }
+  
+  /* Parallax Section Mobile */
+  .parallax-quote {
+    font-size: 28px !important;
+    padding: 0 20px !important;
+  }
+  
+  /* Service Pages Mobile */
+  .service-hero {
+    min-height: 50vh !important;
+    padding: 80px 20px 40px !important;
+  }
+  
+  .service-hero h1 {
+    font-size: 36px !important;
+  }
+  
+  .service-content {
+    padding: 40px 20px !important;
+  }
+  
+  .service-section {
+    padding: 40px 20px !important;
+  }
+}
+
+/* Tablet Optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-title {
+    font-size: 64px !important;
+  }
+  
+  .service-card-horizontal {
+    min-width: 380px !important;
+    max-width: 380px !important;
+  }
+  
+  .about-container {
+    gap: 50px !important;
+  }
+  
+  .why-features-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects on touch devices */
+  .service-card-horizontal:hover {
+    transform: none !important;
+  }
+  
+  .tip-card:hover {
+    transform: none !important;
+  }
+  
+  /* Larger touch targets */
+  .cta-button {
+    min-height: 48px !important;
+    padding: 16px 36px !important;
+  }
+  
+  .footer-menu li a {
+    padding: 8px 0 !important;
+    display: inline-block !important;
+  }
+  
+  /* Prevent text selection on buttons */
+  button, .cta-button, .modern-header a {
+    -webkit-tap-highlight-color: transparent !important;
+    user-select: none !important;
+  }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 38px !important;
+  }
+  
+  .section-title {
+    font-size: 28px !important;
+  }
+  
+  .service-card-horizontal,
+  .section-intro-card {
+    min-width: 90vw !important;
+    max-width: 90vw !important;
+  }
+  
+  .intro-number {
+    font-size: 60px !important;
+  }
+  
+  .section-intro-card .section-title-large {
+    font-size: 42px !important;
+  }
+  
+  .footer-menu {
+    columns: 1 !important;
+  }
+}
+
