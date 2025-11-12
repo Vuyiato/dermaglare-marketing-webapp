@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Breadcrumbs from "./Breadcrumbs";
 
 interface ServiceSection {
   title: string;
@@ -27,6 +28,7 @@ export default function ServicePageTemplate({
 }: ServicePageProps) {
   return (
     <main className="service-page">
+      <Breadcrumbs />
       {/* Hero Section */}
       <section className="service-hero">
         <div className="service-hero-image-bg">

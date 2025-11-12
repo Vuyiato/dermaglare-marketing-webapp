@@ -8,6 +8,8 @@ import "./mobile-optimizations.css";
 import ModernHeader from "@/components/ModernHeader";
 import ScrollProgress from "@/components/ScrollProgress";
 import LoadingScreen from "@/components/LoadingScreen";
+import BackToTop from "@/components/BackToTop";
+import PageTransition from "@/components/PageTransition";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,10 +29,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className} suppressHydrationWarning>
+        <a href="#main-content" className="skip-to-content">
+          Skip to content
+        </a>
         <LoadingScreen />
         <ScrollProgress />
         <ModernHeader />
-        {children}
+        <PageTransition>
+          <main id="main-content">{children}</main>
+        </PageTransition>
+        <BackToTop />
       </body>
     </html>
   );

@@ -6,6 +6,7 @@ import ParallaxSection from "@/components/ParallaxSection";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import ModernFooter from "@/components/ModernFooter";
 import SkinTipsSection from "@/components/SkinTipsSection";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -324,6 +325,52 @@ export default function Home() {
 
       {/* Skin Care Tips & CTA Sections with Animations */}
       <SkinTipsSection />
+
+      {/* FAQ Section */}
+      <section
+        style={{
+          padding: "80px 20px",
+          background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+        }}
+      >
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "60px" }}>
+            <p
+              style={{
+                color: "var(--secondary-color)",
+                fontSize: "14px",
+                fontWeight: "600",
+                letterSpacing: "2px",
+                marginBottom: "12px",
+              }}
+            >
+              COMMON QUESTIONS
+            </p>
+            <h2
+              style={{
+                fontSize: "48px",
+                fontWeight: "700",
+                color: "#1a1a1a",
+                marginBottom: "20px",
+              }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <p
+              style={{
+                fontSize: "18px",
+                color: "#4b5563",
+                maxWidth: "600px",
+                margin: "0 auto",
+              }}
+            >
+              Find answers to the most common questions about our services and
+              appointments.
+            </p>
+          </div>
+          <FAQ />
+        </div>
+      </section>
 
       {/* Modern Footer */}
       <ModernFooter />
