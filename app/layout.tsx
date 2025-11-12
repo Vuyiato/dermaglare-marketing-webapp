@@ -8,7 +8,6 @@ import "./mobile-optimizations.css";
 import ModernHeader from "@/components/ModernHeader";
 import ScrollProgress from "@/components/ScrollProgress";
 import LoadingScreen from "@/components/LoadingScreen";
-import BackToTop from "@/components/BackToTop";
 import PageTransition from "@/components/PageTransition";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -38,7 +37,6 @@ export default function RootLayout({
         <PageTransition>
           <main id="main-content">{children}</main>
         </PageTransition>
-        <BackToTop />
       </body>
     </html>
   );
