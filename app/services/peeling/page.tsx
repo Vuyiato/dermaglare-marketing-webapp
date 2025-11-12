@@ -4,8 +4,8 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 export default function PeelingPage() {
   return (
     <ServicePageTemplate
-      heroImage="https://images.unsplash.com/photo-1596178060810-7e547b5b8b1b?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80"
+      heroImage="https://images.unsplash.com/photo-1526758097130-bab247274f58?w=1200&q=80"
+      sideImage="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80"
       title="Chemical Peeling"
       subtitle="Medical-Grade Chemical Peels for Skin Transformation"
       description="Chemical peels are advanced dermatological treatments that use carefully formulated acid solutions to exfoliate and rejuvenate the skin. At Dermaglare Skin, Dr. Jabu Nkehli offers a comprehensive range of medical-grade peels to address various skin concerns, from acne and hyperpigmentation to aging and sun damage."

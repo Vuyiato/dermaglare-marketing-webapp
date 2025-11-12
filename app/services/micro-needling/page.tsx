@@ -5,7 +5,7 @@ export default function MicroneedlingPage() {
   return (
     <ServicePageTemplate
       heroImage="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
       title="Micro-Needling"
       subtitle="Advanced Collagen Induction Therapy"
       description="Micro-needling, also known as collagen induction therapy, is a revolutionary minimally invasive treatment that harnesses your skin's natural healing abilities. By creating controlled micro-injuries, this procedure stimulates collagen and elastin production, resulting in smoother, firmer, and more youthful-looking skin. Dr. Jabu Nkehli uses medical-grade micro-needling devices to deliver safe and effective results."

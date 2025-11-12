@@ -5,7 +5,7 @@ export default function ElectrocauteryPage() {
   return (
     <ServicePageTemplate
       heroImage="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80"
       title="Electrocautery & Curettage"
       subtitle="Precise Surgical Removal of Skin Lesions"
       description="Electrocautery and curettage (also known as electrodesiccation and curettage or ED&C) is a proven dermatological surgical procedure used to remove various benign and malignant skin lesions. Dr. Jabu Nkehli expertly performs this minimally invasive treatment, which combines the use of electrical current to destroy tissue with a curette to scrape away the lesion. This technique offers precise removal with excellent cosmetic outcomes and minimal scarring."

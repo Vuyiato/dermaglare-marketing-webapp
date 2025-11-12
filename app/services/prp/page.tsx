@@ -4,8 +4,8 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 export default function PRPPage() {
   return (
     <ServicePageTemplate
-      heroImage="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=80"
+      heroImage="https://images.unsplash.com/photo-1629909615957-be38b8c891ed?w=1200&q=80"
+      sideImage="https://images.unsplash.com/photo-1611592437766-c7ca203e4c89?w=800&q=80"
       title="PRP (Platelet Rich Plasma) Therapy"
       subtitle="Harness Your Body's Natural Healing Power"
       description="Platelet-Rich Plasma (PRP) therapy is an innovative regenerative treatment that uses concentrated platelets and growth factors from your own blood to stimulate healing, rejuvenation, and cellular regeneration. Dr. Jabu Nkehli offers advanced PRP treatments for facial rejuvenation, hair restoration, scar improvement, and overall skin quality enhancement. This natural, minimally invasive procedure delivers remarkable results with minimal downtime."

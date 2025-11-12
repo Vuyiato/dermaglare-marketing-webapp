@@ -5,7 +5,7 @@ export default function SkinTighteningPage() {
   return (
     <ServicePageTemplate
       heroImage="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1596178060810-7e547b5b8b1b?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1606800052052-452645032e8a?w=800&q=80"
       title="Skin Tightening"
       subtitle="Non-Invasive Solutions for Firmer, Youthful Skin"
       description="Combat skin laxity and restore your skin's youthful firmness with advanced, non-surgical skin tightening treatments at Dermaglare Skin. Dr. Jabu Nkehli offers cutting-edge radiofrequency and ultrasound technologies that stimulate deep collagen production, resulting in tighter, smoother, and more rejuvenated skin. These treatments address sagging skin, fine lines, wrinkles, and loss of elasticity without surgery, needles, or extended downtime."

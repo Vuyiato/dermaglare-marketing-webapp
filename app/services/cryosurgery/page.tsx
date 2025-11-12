@@ -4,8 +4,8 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 export default function CryosurgeryPage() {
   return (
     <ServicePageTemplate
-      heroImage="https://images.unsplash.com/photo-1579154204845-8f0e0a072a43?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80"
+      heroImage="https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1200&q=80"
+      sideImage="https://images.unsplash.com/photo-1579154204845-8f0e0a072a43?w=800&q=80"
       title="Cryosurgery & Cryotherapy"
       subtitle="Precise Cold Therapy for Skin Lesion Removal"
       description="Cryosurgery (cryotherapy) is a proven dermatological procedure that uses extreme cold, typically liquid nitrogen at -196°C, to destroy abnormal or unwanted skin tissue. Dr. Jabu Nkehli offers professional cryotherapy treatments for benign skin lesions, pre-cancerous growths, warts, and various dermatological conditions. This quick, minimally invasive procedure provides effective results with minimal scarring and downtime."

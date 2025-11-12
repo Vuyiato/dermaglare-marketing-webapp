@@ -5,7 +5,7 @@ export default function SurgicalDermatologyPage() {
   return (
     <ServicePageTemplate
       heroImage="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1579154204845-8f0e0a072a43?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&q=80"
       title="Surgical Dermatology"
       subtitle="Expert Surgical Procedures for Skin Disease Diagnosis and Treatment"
       description="Surgical dermatology encompasses the diagnosis and treatment of skin conditions through surgical procedures. As a specialist dermatologist, Dr. Jabu Nkehli is trained in a comprehensive range of surgical techniques, from simple biopsies to excision of skin cancers and removal of benign lesions. These procedures are performed with precision in our office setting under local anesthesia, ensuring optimal outcomes with minimal scarring. Whether you need a diagnostic biopsy, removal of a suspicious lesion, or excision of a bothersome growth, Dr. Nkehli provides expert surgical care with compassion and attention to detail."

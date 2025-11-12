@@ -5,7 +5,7 @@ export default function PaediatricDermatologyPage() {
   return (
     <ServicePageTemplate
       heroImage="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
       title="Paediatric Dermatology"
       subtitle="Expert, Compassionate Dermatology Care for Children and Adolescents"
       description="Pediatric dermatology focuses on the diagnosis and treatment of skin, hair, and nail conditions in infants, children, and adolescents. Children's skin has unique characteristics and responds differently to treatments than adult skin, requiring specialized knowledge and gentle approaches. At Dermaglare Skin, Dr. Jabu Nkehli provides expert, compassionate care for young patients from newborns through teenagers. With extensive experience treating childhood skin conditions and a gentle, child-friendly approach, she puts both children and parents at ease while delivering effective treatment for conditions ranging from common diaper rash and eczema to more complex birthmarks, genetic conditions, and adolescent acne."

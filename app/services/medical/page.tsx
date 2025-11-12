@@ -8,7 +8,7 @@ export default function MedicalDermatologyPage() {
       subtitle="Comprehensive Diagnosis and Treatment of Skin, Hair, and Nail Conditions"
       description="Medical dermatology focuses on the diagnosis, treatment, and management of diseases affecting the skin, hair, nails, and mucous membranes. As a specialist dermatologist, Dr. Jabu Nkehli provides expert care for patients of all ages, from newborns to the elderly. With extensive training and experience, she diagnoses and treats a wide spectrum of dermatological conditions, from common concerns like acne and eczema to complex autoimmune diseases and skin cancers. At Dermaglare Skin, you receive evidence-based medical care delivered with compassion and expertise."
       heroImage="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1629909615957-be38b8c891ed?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80"
       sections={[
         {
           title: "What is Medical Dermatology?",

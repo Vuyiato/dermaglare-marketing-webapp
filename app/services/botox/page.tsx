@@ -7,8 +7,8 @@ export default function BotoxPage() {
       title="Botox Injections"
       subtitle="Advanced Botulinum Toxin Treatments"
       description="Botox is a clinically proven, FDA-approved treatment that offers effective solutions for both medical and cosmetic concerns. Dr. Jabu Nkehli specializes in precision Botox injections to address hyperhidrosis, facial wrinkles, and various aesthetic enhancements."
-      heroImage="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80"
+      heroImage="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200&q=80"
+      sideImage="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"
       sections={[
         {
           title: "What is Botox?",

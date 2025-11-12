@@ -8,7 +8,7 @@ export default function CosmeticDermatologyPage() {
       subtitle="Advanced Aesthetic Treatments for Natural-Looking Rejuvenation"
       description="Cosmetic dermatology combines medical expertise with aesthetic artistry to enhance your natural beauty. At Dermaglare Skin, Dr. Jabu Nkehli offers evidence-based cosmetic treatments that deliver visible results while maintaining skin health. From injectable treatments like Botox to advanced skin rejuvenation procedures including chemical peels, micro-needling, PRP therapy, and skin tightening, we provide comprehensive aesthetic solutions tailored to your unique goals. As a specialist dermatologist, Dr. Nkehli understands skin anatomy, aging processes, and safe treatment protocols, ensuring you receive expert care that looks natural and enhances your confidence."
       heroImage="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&q=80"
-      sideImage="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=80"
+      sideImage="https://images.unsplash.com/photo-1596178060810-7e547b5b8b1b?w=800&q=80"
       sections={[
         {
           title: "What is Cosmetic Dermatology?",
