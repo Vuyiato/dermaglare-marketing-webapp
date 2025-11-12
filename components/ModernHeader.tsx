@@ -20,7 +20,6 @@ export default function ModernHeader() {
   const navLinks = [
     { name: "HOME", href: "/" },
     { name: "ABOUT", href: "/about" },
-    { name: "SERVICES", href: "#services" },
     { name: "DOWNLOAD APP", href: "/download-app" },
   ];
 
