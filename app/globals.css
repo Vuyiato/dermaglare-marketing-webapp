@@ -161,6 +161,7 @@ a {
 /* Dropdown */
 .nav-dropdown {
   position: relative;
+  z-index: 1000;
 }
 
 .dropdown-toggle {
@@ -193,6 +194,7 @@ a {
   transition: all 0.3s ease;
   margin-top: 8px;
   list-style: none;
+  z-index: 1001;
 }
 
 .nav-dropdown:hover .dropdown-menu,
