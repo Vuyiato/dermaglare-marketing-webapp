@@ -168,6 +168,21 @@ a {
   z-index: 100;
 }
 
+.nav-dropdown .nav-link::after {
+  display: none;
+}
+
+.nav-dropdown::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: transparent;
+  z-index: 9999;
+}
+
 .dropdown-toggle {
   display: flex;
   align-items: center;
@@ -185,7 +200,7 @@ a {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 5px);
   left: 50%;
   transform: translateX(-50%);
   background: white;
@@ -197,7 +212,6 @@ a {
   visibility: hidden;
   pointer-events: none;
   transition: all 0.3s ease;
-  margin-top: 8px;
   list-style: none;
   z-index: 10000;
 }
@@ -207,7 +221,6 @@ a {
   opacity: 1 !important;
   visibility: visible !important;
   pointer-events: auto !important;
-  margin-top: 12px;
   display: block !important;
 }
 
