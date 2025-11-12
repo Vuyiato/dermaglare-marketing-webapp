@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ContactForm from "@/components/ContactForm";
 
 export default function AboutPage() {
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);
@@ -239,53 +238,6 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section
-        className="contact-section"
-        style={{
-          padding: "80px 20px",
-          background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
-        }}
-      >
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", marginBottom: "60px" }}>
-            <p
-              style={{
-                color: "var(--secondary-color)",
-                fontSize: "14px",
-                fontWeight: "600",
-                letterSpacing: "2px",
-                marginBottom: "12px",
-              }}
-            >
-              GET IN TOUCH
-            </p>
-            <h2
-              style={{
-                fontSize: "48px",
-                fontWeight: "700",
-                color: "#1a1a1a",
-                marginBottom: "20px",
-              }}
-            >
-              Contact Us
-            </h2>
-            <p
-              style={{
-                fontSize: "18px",
-                color: "#4b5563",
-                maxWidth: "600px",
-                margin: "0 auto",
-              }}
-            >
-              Have questions or ready to book your appointment? We're here to
-              help you achieve your skin health goals.
-            </p>
-          </div>
-          <ContactForm />
         </div>
       </section>
 
