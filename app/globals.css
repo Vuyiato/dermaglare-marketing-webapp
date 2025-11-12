@@ -1511,14 +1511,14 @@ a {
 .value-card-title {
   font-size: 24px;
   font-weight: 700;
-  color: var(--text-dark);
+  color: #1a1a1a;
   margin-bottom: 16px;
 }
 
 .value-card-description {
   font-size: 15px;
   line-height: 1.7;
-  color: var(--text-light);
+  color: #2c3e50;
 }
 
 /* ===========================
