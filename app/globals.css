@@ -204,10 +204,11 @@ a {
 
 .nav-dropdown:hover .dropdown-menu,
 .nav-dropdown.active .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
   margin-top: 12px;
+  display: block !important;
 }
 
 .dropdown-menu li {
