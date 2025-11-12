@@ -210,16 +210,26 @@ a {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   padding: 12px 0;
   min-width: 240px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   display: block;
   transition: all 0.3s ease;
   list-style: none;
   z-index: 10000;
 }
 
-.nav-dropdown:hover .dropdown-menu,
+/* Desktop hover effect - only on screens larger than 768px */
+@media (min-width: 769px) {
+  .nav-dropdown:hover .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    display: block !important;
+  }
+}
+
+/* Mobile/tablet click effect */
 .nav-dropdown.active .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
