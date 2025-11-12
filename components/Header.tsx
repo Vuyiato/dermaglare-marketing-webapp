@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,12 +27,16 @@ export default function Header() {
         <div className="logo">
           <Link href="/" onClick={closeMenu}>
             <div className="logo-text">
-              <img src="/images/logo.png" alt="Dermaglare Logo" className="hero-img" />
+              <img
+                src="/images/logo.png"
+                alt="Dermaglare Logo"
+                className="hero-img"
+              />
             </div>
           </Link>
         </div>
 
-        <nav className={`main-nav ${isMenuOpen ? 'active' : ''}`}>
+        <nav className={`main-nav ${isMenuOpen ? "active" : ""}`}>
           <ul className="nav-list">
             <li>
               <Link href="/" className="nav-link" onClick={closeMenu}>
@@ -44,81 +48,26 @@ export default function Header() {
                 About
               </Link>
             </li>
-            <li className={`nav-dropdown ${isServicesOpen ? 'active' : ''}`}>
-              <button 
-                className="nav-link dropdown-toggle"
-                onClick={toggleServices}
-              >
+            <li>
+              <Link href="/services" className="nav-link" onClick={closeMenu}>
                 Services
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                  <path d="M2 4L6 8L10 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </button>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link href="/services/paediatric" onClick={closeMenu}>
-                    Paediatric Dermatology
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/medical" onClick={closeMenu}>
-                    Medical Dermatology
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/surgical" onClick={closeMenu}>
-                    Surgical Dermatology
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/cosmetic" onClick={closeMenu}>
-                    Cosmetic Dermatology
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/botox" onClick={closeMenu}>
-                    Botox Injections
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/peeling" onClick={closeMenu}>
-                    Medical Peeling
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/skin-tightening" onClick={closeMenu}>
-                    Skin Tightening
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/micro-needling" onClick={closeMenu}>
-                    Micro-needling 
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/prp" onClick={closeMenu}>
-                    Platelet-Rich Plasma 
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/electrocautery" onClick={closeMenu}>
-                    Electrocautery & Curettage 
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services/cryosurgery" onClick={closeMenu}>
-                    Cryosurgery
-                  </Link>
-                </li>
-              </ul>
+              </Link>
             </li>
             <li>
-              <Link href="https://patient-portal-snowy.vercel.app" className="nav-link" onClick={closeMenu}>
+              <Link
+                href="https://patient-portal-snowy.vercel.app"
+                className="nav-link"
+                onClick={closeMenu}
+              >
                 Book Appointment
               </Link>
             </li>
             <li>
-              <Link href="/download-app" className="nav-link" onClick={closeMenu}>
+              <Link
+                href="/download-app"
+                className="nav-link"
+                onClick={closeMenu}
+              >
                 Download Our App
               </Link>
             </li>
@@ -127,8 +76,8 @@ export default function Header() {
 
         {/* Mobile Menu Toggle Button - THIS WAS MISSING! */}
         <div className="header-actions">
-          <button 
-            className={`mobile-menu-toggle ${isMenuOpen ? 'active' : ''}`}
+          <button
+            className={`mobile-menu-toggle ${isMenuOpen ? "active" : ""}`}
             onClick={toggleMenu}
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
@@ -140,9 +89,7 @@ export default function Header() {
         </div>
 
         {/* Overlay for mobile menu */}
-        {isMenuOpen && (
-          <div className="menu-overlay" onClick={closeMenu}></div>
-        )}
+        {isMenuOpen && <div className="menu-overlay" onClick={closeMenu}></div>}
       </div>
     </header>
   );
