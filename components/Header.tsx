@@ -49,11 +49,6 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/services" className="nav-link" onClick={closeMenu}>
-                Services
-              </Link>
-            </li>
-            <li>
               <Link
                 href="https://patient-portal-snowy.vercel.app"
                 className="nav-link"
