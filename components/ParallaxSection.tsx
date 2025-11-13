@@ -68,15 +68,25 @@ export default function ParallaxSection() {
           <div className="parallax-images">
             <motion.div className="parallax-image image-1" style={{ y: y1 }}>
               <div className="image-placeholder">
+                <img
+                  src="/images/doctor-office.jpg"
+                  alt="Dr. Jabu Nkehli at work"
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
                 <div className="image-overlay"></div>
-                <div className="image-label">QATAR, 2024</div>
+                <div className="image-label">DERMATOLOGY EXPERT</div>
               </div>
             </motion.div>
 
             <motion.div className="parallax-image image-2" style={{ y: y2 }}>
               <div className="image-placeholder">
+                <img
+                  src="/images/doctor-poster.jpeg"
+                  alt="Dr. Jabu Nkehli"
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
                 <div className="image-overlay"></div>
-                <div className="image-label">EXCELLENCE AWARD, 2024</div>
+                <div className="image-label">EXCELLENCE IN CARE</div>
               </div>
             </motion.div>
           </div>

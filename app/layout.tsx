@@ -7,7 +7,6 @@ import "./header-styles.css";
 import "./mobile-optimizations.css";
 import ModernHeader from "@/components/ModernHeader";
 import ScrollProgress from "@/components/ScrollProgress";
-import LoadingScreen from "@/components/LoadingScreen";
 import PageTransition from "@/components/PageTransition";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,7 +30,6 @@ export default function RootLayout({
         <a href="#main-content" className="skip-to-content">
           Skip to content
         </a>
-        <LoadingScreen />
         <ScrollProgress />
         <ModernHeader />
         <PageTransition>

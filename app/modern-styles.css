@@ -159,10 +159,15 @@
 .highlight-text {
   display: block;
   font-style: italic;
-  color: var(--primary-yellow);
+  color: #1a1a1a;
   margin-top: 10px;
   font-weight: 700;
-  text-shadow: 0 2px 12px rgba(244, 228, 142, 0.4);
+  font-size: 18px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .hero-cta-group {
@@ -530,11 +535,21 @@
 }
 
 .parallax-description {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
   font-style: italic;
+  font-weight: 600;
   margin-bottom: 40px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  padding: 20px 30px;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-yellow);
 }
 
 .signature {

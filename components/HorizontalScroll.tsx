@@ -235,9 +235,13 @@ export default function HorizontalScroll() {
             transition={{ duration: 0.8 }}
           >
             <h3 className="outro-title">EXPLORE ALL SERVICES</h3>
-            <a href="/services">
+            <a
+              href="https://patient-portal-snowy.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="explore-button">
-                <span>VIEW COMPLETE LIST</span>
+                <span>BOOK AN APPOINTMENT</span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M5 12h14M12 5l7 7-7 7"
