@@ -240,3 +240,379 @@
     columns: 1 !important;
   }
 }
+
+/* ===========================
+   COMPREHENSIVE MOBILE ENHANCEMENTS
+   =========================== */
+
+@media (max-width: 768px) {
+  /* Hero Section - Text visibility on mobile */
+  .hero-description-modern {
+    font-size: 16px !important;
+    padding: 0 10px !important;
+  }
+
+  .highlight-text {
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+    margin-top: 15px !important;
+  }
+
+  .main-title {
+    font-size: 48px !important;
+    line-height: 1.1 !important;
+  }
+
+  .sub-title {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* CTA Buttons - Larger touch targets */
+  .cta-primary,
+  .cta-secondary {
+    padding: 16px 32px !important;
+    font-size: 13px !important;
+    min-height: 52px !important;
+  }
+
+  .book-button {
+    padding: 14px 28px !important;
+    font-size: 12px !important;
+  }
+
+  /* Parallax Section - Better mobile visibility */
+  .parallax-section {
+    padding: 60px 20px !important;
+    min-height: auto !important;
+  }
+
+  .parallax-title {
+    font-size: 36px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .parallax-description {
+    font-size: 18px !important;
+    padding: 15px 20px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .parallax-images {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    margin-top: 40px !important;
+  }
+
+  .parallax-image {
+    height: 300px !important;
+  }
+
+  /* Horizontal Scroll - Touch friendly */
+  .scroll-container {
+    scroll-padding: 20px !important;
+    padding: 30px 20px !important;
+  }
+
+  .service-card-horizontal {
+    min-width: 85vw !important;
+    max-width: 85vw !important;
+    margin: 0 8px !important;
+  }
+
+  /* Service Pages - Mobile optimization */
+  .service-hero-title {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+
+  .service-hero-subtitle {
+    font-size: 16px !important;
+  }
+
+  .service-section-block {
+    padding: 30px 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .service-section-title {
+    font-size: 24px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .service-section-text {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .service-features-list {
+    gap: 12px !important;
+  }
+
+  .service-feature-item {
+    font-size: 14px !important;
+    padding: 12px 15px !important;
+  }
+
+  /* About Page - Mobile responsive */
+  .about-hero-title {
+    font-size: 36px !important;
+    line-height: 1.2 !important;
+  }
+
+  .about-hero-description {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 15px !important;
+  }
+
+  .values-section {
+    padding: 60px 20px !important;
+  }
+
+  .values-title {
+    font-size: 32px !important;
+  }
+
+  .values-cards {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .value-card {
+    padding: 30px 20px !important;
+  }
+
+  .journey-title {
+    font-size: 32px !important;
+  }
+
+  .journey-description {
+    font-size: 15px !important;
+  }
+
+  .accordion-header {
+    font-size: 16px !important;
+    padding: 18px 15px !important;
+  }
+
+  .accordion-content {
+    padding: 15px !important;
+    font-size: 14px !important;
+  }
+
+  /* Footer - Mobile optimization */
+  .about-footer {
+    padding: 50px 20px !important;
+  }
+
+  .footer-brand-section {
+    margin-bottom: 40px !important;
+  }
+
+  .footer-links-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  .footer-section-title {
+    font-size: 16px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .footer-links-list,
+  .footer-contact-list {
+    font-size: 14px !important;
+  }
+
+  .footer-bottom {
+    flex-direction: column !important;
+    gap: 20px !important;
+    text-align: center !important;
+  }
+
+  .footer-legal-links {
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+
+  /* Breadcrumbs - Mobile friendly */
+  .breadcrumbs {
+    padding: 12px 15px !important;
+  }
+
+  .breadcrumbs-list {
+    font-size: 13px !important;
+    gap: 5px !important;
+  }
+
+  .breadcrumb-item {
+    font-size: 13px !important;
+  }
+
+  /* FAQ Section - Mobile optimization */
+  .faq-section {
+    padding: 60px 20px !important;
+  }
+
+  .faq-title {
+    font-size: 32px !important;
+  }
+
+  .faq-description {
+    font-size: 16px !important;
+  }
+
+  .faq-question {
+    padding: 18px 15px !important;
+    font-size: 16px !important;
+  }
+
+  .faq-answer {
+    padding: 0 15px 20px 15px !important;
+  }
+
+  .faq-answer p {
+    font-size: 14px !important;
+  }
+
+  /* Download App Page - Mobile */
+  .download-hero {
+    padding: 80px 20px 40px !important;
+  }
+
+  .heading-primary {
+    font-size: 36px !important;
+  }
+
+  .hero-description {
+    font-size: 15px !important;
+  }
+
+  .store-buttons {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .store-btn {
+    width: 100% !important;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Policy Pages - Mobile readable */
+  .policy-page h1 {
+    font-size: 32px !important;
+  }
+
+  .policy-page h2 {
+    font-size: 24px !important;
+  }
+
+  .policy-page p {
+    font-size: 15px !important;
+  }
+
+  /* Scroll Progress Circle - Mobile position */
+  .scroll-progress-circle {
+    bottom: 70px !important;
+    right: 15px !important;
+  }
+
+  .scroll-to-top {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  /* Images - Prevent overflow */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .hero-img,
+  .service-image,
+  .about-image {
+    object-fit: cover !important;
+    width: 100% !important;
+  }
+
+  /* Prevent horizontal scroll */
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+
+  .container,
+  .section {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Touch-friendly spacing */
+  section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Modern Header - Ensure z-index */
+  .modern-header {
+    z-index: 9999 !important;
+  }
+
+  /* Mobile Menu Improvements */
+  .mobile-nav {
+    padding: 20px !important;
+  }
+
+  .mobile-nav-link {
+    padding: 12px 0 !important;
+    font-size: 15px !important;
+  }
+}
+
+/* Very Small Screens - Extra care */
+@media (max-width: 375px) {
+  .main-title {
+    font-size: 42px !important;
+  }
+
+  .parallax-title {
+    font-size: 28px !important;
+  }
+
+  .about-hero-title {
+    font-size: 32px !important;
+  }
+
+  .service-card-horizontal {
+    min-width: 92vw !important;
+    max-width: 92vw !important;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    padding: 14px 24px !important;
+    font-size: 12px !important;
+  }
+}
+
+/* Landscape Mobile - Better utilization of space */
+@media (max-height: 600px) and (orientation: landscape) {
+  .hero-section-modern {
+    min-height: 100vh !important;
+    padding: 100px 20px 40px !important;
+  }
+
+  .parallax-section {
+    min-height: auto !important;
+    padding: 40px 20px !important;
+  }
+
+  .service-hero {
+    min-height: 60vh !important;
+  }
+}

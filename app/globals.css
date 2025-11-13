@@ -33,6 +33,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 80px;
+  /* Mobile touch optimizations */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  touch-action: manipulation;
 }
 
 a {
@@ -4139,5 +4142,70 @@ a {
 
   .faq-answer {
     padding: 0 20px 20px 20px;
+  }
+}
+
+/* ===========================
+   MOBILE-FIRST TOUCH OPTIMIZATIONS
+   =========================== */
+
+/* Ensure all buttons are touch-friendly */
+button,
+.cta-button,
+.cta-primary,
+.cta-secondary,
+.book-button,
+.explore-button {
+  min-height: 44px;
+  -webkit-tap-highlight-color: rgba(232, 217, 159, 0.3);
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+/* Links - Larger touch targets */
+a {
+  -webkit-tap-highlight-color: rgba(90, 125, 140, 0.2);
+  touch-action: manipulation;
+}
+
+/* Prevent zoom on input focus (iOS) */
+input,
+textarea,
+select {
+  font-size: 16px;
+}
+
+/* Smooth scrolling for all anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better text rendering on mobile */
+@media (max-width: 768px) {
+  body {
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-width: 768px) and (orientation: landscape) {
+  body {
+    padding-top: 60px;
+  }
+
+  .modern-header {
+    padding: 10px 0;
+  }
+
+  .header-logo img {
+    height: 40px;
+  }
+}
+
+/* High DPI screens - sharper images */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  img {
+    image-rendering: -webkit-optimize-contrast;
   }
 }

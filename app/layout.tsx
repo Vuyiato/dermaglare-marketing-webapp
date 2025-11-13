@@ -17,6 +17,12 @@ export const metadata: Metadata = {
     "Specialist Dermatologist in Johannesburg. Expert dermatology care for skin, hair, and nails. Book your appointment with Dr. Jabu Nkehli today.",
   keywords:
     "dermatologist, skin care, Johannesburg, Dr Jabu Nkehli, dermatology, skin treatment",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 };
 
 export default function RootLayout({
