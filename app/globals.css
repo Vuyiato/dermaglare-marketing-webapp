@@ -1,6 +1,7 @@
 /* Hero Section Title Spacing and Size */
+
 .spaced-title {
-  font-size: 48px;
+  font-size: 36px;
   letter-spacing: 0.15em;
   font-weight: 700;
   line-height: 1.1;
@@ -14,12 +15,12 @@
 
 @media (max-width: 768px) {
   .spaced-title {
-    font-size: 32px;
-    letter-spacing: 0.12em;
-    margin-bottom: 16px;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
   }
   .spaced-letter {
-    margin-right: 0.06em;
+    margin-right: 0.05em;
   }
 }
 /* ===========================
