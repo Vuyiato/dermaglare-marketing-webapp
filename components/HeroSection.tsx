@@ -102,7 +102,7 @@ export default function HeroSection() {
           className="hero-cta-group"
         >
           <a
-            href="https://patient-portal-snowy.vercel.app"
+            href="http://portal.dermaglare.co.za"
             target="_blank"
             rel="noopener noreferrer"
           >

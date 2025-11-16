@@ -137,7 +137,7 @@ export default function ModernFooter() {
                 </li>
                 <li>
                   <a
-                    href="https://patient-portal-snowy.vercel.app"
+                    href="http://portal.dermaglare.co.za"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

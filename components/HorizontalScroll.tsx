@@ -236,7 +236,7 @@ export default function HorizontalScroll() {
           >
             <h3 className="outro-title">EXPLORE ALL SERVICES</h3>
             <a
-              href="https://patient-portal-snowy.vercel.app"
+              href="http://portal.dermaglare.co.za"
               target="_blank"
               rel="noopener noreferrer"
             >

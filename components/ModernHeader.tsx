@@ -63,7 +63,7 @@ export default function ModernHeader() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <a
-            href="https://patient-portal-snowy.vercel.app"
+            href="http://portal.dermaglare.co.za"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -137,7 +137,7 @@ export default function ModernHeader() {
                 transition={{ duration: 0.3, delay: navLinks.length * 0.1 }}
               >
                 <a
-                  href="https://patient-portal-snowy.vercel.app"
+                  href="http://portal.dermaglare.co.za"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mobile-book-button"
