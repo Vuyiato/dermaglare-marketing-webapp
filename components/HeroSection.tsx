@@ -40,8 +40,8 @@ export default function HeroSection() {
     }
   }, []);
 
-  const title = "DERMAGLARE";
-  const subtitle = "SKIN & AESTHETICS";
+  const title = "Welcome to Dermaglare Skin";
+  const subtitle = "Dermatology & Skin Care";
 
   return (
     <motion.section
