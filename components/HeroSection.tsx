@@ -66,10 +66,10 @@ export default function HeroSection() {
         </motion.div>
 
         <div ref={textRef} className="hero-title-modern">
-          <h1 className="main-title">
+          <h1 className="main-title spaced-title">
             {title.split("").map((letter, index) => (
-              <span key={index} className="letter">
-                {letter}
+              <span key={index} className="letter spaced-letter">
+                {letter === " " ? "\u00A0" : letter}
               </span>
             ))}
           </h1>

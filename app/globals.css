@@ -1,3 +1,27 @@
+/* Hero Section Title Spacing and Size */
+.spaced-title {
+  font-size: 48px;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.spaced-letter {
+  display: inline-block;
+  margin-right: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .spaced-title {
+    font-size: 32px;
+    letter-spacing: 0.12em;
+    margin-bottom: 16px;
+  }
+  .spaced-letter {
+    margin-right: 0.06em;
+  }
+}
 /* ===========================
    GLOBAL STYLES & VARIABLES
    =========================== */
