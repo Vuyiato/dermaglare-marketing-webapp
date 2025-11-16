@@ -50,7 +50,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="https://patient-portal-snowy.vercel.app"
+                href="portal.dermaglare.co.za"
                 className="nav-link"
                 onClick={closeMenu}
               >
