@@ -40,7 +40,7 @@ export default function HeroSection() {
     }
   }, []);
 
-  const title = "Welcome to Dermaglare Skin";
+  const title = "Dermaglare Skin";
   const subtitle = "Dermatology & Skin Care";
 
   return (
